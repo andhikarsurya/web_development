@@ -1,6 +1,7 @@
 namespace soal{
     let text:string = "An apple a day keeps the doctor away";
     let output:string ="";
+    //let output: string = text.replace(/[Aa]/g, "*");
     for (let index = 0; index < text.length; index++) {
         if(text[index]==='A'||text[index]==='a'){
             output += "*";
