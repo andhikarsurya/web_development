@@ -3,9 +3,9 @@ namespace soal{
     let output : string = "";
     for (let index = 0; index < text.length; index++) {
         if(index==0){
-            output += text[index].toLocaleUpperCase();
+            output += text[index].toUpperCase();
         }else if(text[index-1]=== ' '){
-            output += text[index].toLocaleUpperCase();
+            output += text[index].toUpperCase();
         }else{
             output += text[index]
         }
