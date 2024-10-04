@@ -5,6 +5,7 @@
       "lib": ["es6"],
       "sourceMap": true,
       "strict": true, 
+      "moduleDetection": "force"
     },
     "exclude": [
       "node_modules"

@@ -7,7 +7,7 @@ namespace soal{
         }else if(text[index-1]=== ' '){
             output += text[index].toUpperCase();
         }else{
-            output += text[index]
+            output += text[index].toLowerCase();
         }
     }
     console.log(output)
